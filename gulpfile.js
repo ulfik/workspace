@@ -15,6 +15,15 @@ gulp.task('test', function() {
     }));
 });
 
+gulp.task('spec', function() {
+  return gulp.src(['src/**/*.spec.js'], { read: false })
+    .pipe(mocha({
+      reporter: 'spec',
+      globals: {
+        should: require('should')
+      }
+    }));
+});
 
 
 gulp.task('default', ['test']);
