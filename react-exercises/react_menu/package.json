@@ -1,0 +1,18 @@
+{
+  "name": "menu_component",
+  "version": "1.0.0",
+  "description": "react redux menu component",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "ulfik",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "^1.1.4"
+  }
+}
