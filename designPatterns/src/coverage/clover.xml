@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1537616975882" clover="3.2.0">
-  <project timestamp="1537616975882" name="All files">
-    <metrics statements="32" coveredstatements="32" conditionals="2" coveredconditionals="2" methods="16" coveredmethods="16" elements="50" coveredelements="50" complexity="0" loc="32" ncloc="32" packages="2" files="4" classes="4">
+<coverage generated="1537908014579" clover="3.2.0">
+  <project timestamp="1537908014580" name="All files">
+    <metrics statements="51" coveredstatements="51" conditionals="4" coveredconditionals="4" methods="36" coveredmethods="36" elements="91" coveredelements="91" complexity="0" loc="51" ncloc="51" packages="3" files="7" classes="7">
+      <package name="behavioral">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
+        <file name="observer.js" path="C:\repos\workspace\designPatterns\src\behavioral\observer.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="19" count="2" type="stmt"/>
+        </file>
+        <file name="state.js" path="C:\repos\workspace\designPatterns\src\behavioral\state.js">
+          <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+          <line num="3" count="4" type="stmt"/>
+          <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+        </file>
+      </package>
       <package name="creational">
         <metrics statements="26" coveredstatements="26" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
         <file name="builder.js" path="C:\repos\workspace\designPatterns\src\creational\builder.js">
@@ -41,7 +63,16 @@
         </file>
       </package>
       <package name="structural">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14"/>
+        <file name="composite.js" path="C:\repos\workspace\designPatterns\src\structural\composite.js">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="15" count="6" type="stmt"/>
+          <line num="21" count="6" type="stmt"/>
+          <line num="24" count="6" type="stmt"/>
+        </file>
         <file name="decorator.js" path="C:\repos\workspace\designPatterns\src\structural\decorator.js">
           <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
           <line num="3" count="1" type="stmt"/>
