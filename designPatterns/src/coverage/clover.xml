@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1538046194687" clover="3.2.0">
-  <project timestamp="1538046194688" name="All files">
-    <metrics statements="66" coveredstatements="66" conditionals="4" coveredconditionals="4" methods="43" coveredmethods="43" elements="113" coveredelements="113" complexity="0" loc="66" ncloc="66" packages="3" files="9" classes="9">
-      <package name="behavioral">
+<coverage generated="1539115402596" clover="3.2.0">
+  <project timestamp="1539115402597" name="All files">
+    <metrics statements="75" coveredstatements="75" conditionals="4" coveredconditionals="4" methods="47" coveredmethods="47" elements="126" coveredelements="126" complexity="0" loc="75" ncloc="75" packages="4" files="10" classes="10">
+      <package name="src">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <file name="revealingModulePattern.js" path="C:\repos\workspace\designPatterns\src\revealingModulePattern.js">
+          <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.behavioral">
         <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="17" coveredmethods="17"/>
         <file name="observer.js" path="C:\repos\workspace\designPatterns\src\behavioral\observer.js">
           <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
@@ -37,7 +52,7 @@
           <line num="33" count="1" type="stmt"/>
         </file>
       </package>
-      <package name="creational">
+      <package name="src.creational">
         <metrics statements="31" coveredstatements="31" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
         <file name="builder.js" path="C:\repos\workspace\designPatterns\src\creational\builder.js">
           <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
@@ -83,7 +98,7 @@
           <line num="8" count="2" type="stmt"/>
         </file>
       </package>
-      <package name="structural">
+      <package name="src.structural">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14"/>
         <file name="composite.js" path="C:\repos\workspace\designPatterns\src\structural\composite.js">
           <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
